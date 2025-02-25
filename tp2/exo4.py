@@ -1,0 +1,7 @@
+times_week=int(input("Combien de fois par semaine mangez-vous à la cafétéria des étudiants? "))
+price=float(input("Le prix d'un repas typique pour un étudiant? "))
+money=float(input("Combien d'argent consacrez-vous à l'épicerie en une semaine? "))
+print()
+print("Dépenses alimentaires moyennes :")
+print(f"Quotidiennement: {((times_week*price)+money)/7} dh")
+print(f"Hebdomadairement: {(times_week*price)+money} dh")

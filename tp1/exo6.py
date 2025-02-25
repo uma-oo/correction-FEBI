@@ -1,0 +1,18 @@
+nom= input("Nom: ")
+prenom= input("Prénom: ")
+age= input("Age: ") ##mashi daruri nrddu age int maghadish ndiru shi calcul
+competence1=input("Compétence 1: ")
+niveau1=input(f"Niveau de {competence1}: ")
+competence2=input("Compétence 2: ")
+niveau2=input(f"Niveau de {competence2}: ")
+competence3=input("Compétence 3: ")
+niveau3=input(f"Niveau de {competence3}: ")
+salaire_minimum=input("Salaire Minimum: ")
+salaire_maximum=input("Salaire Maximum: ")
+
+print(f"Je m'appelle {prenom} {nom}, j'ai {age} ans")
+print("Mes compétences sont: ")
+print(f"-{competence1}({niveau1})")
+print(f"-{competence2}({niveau2})")
+print(f"-{competence3}({niveau3})")
+print(f"je cherche un emploi avec un salaire de {salaire_minimum}-{salaire_maximum} dirhams par mois.")
